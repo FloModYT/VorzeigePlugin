@@ -1,0 +1,22 @@
+name: WarpSystem
+version: '1.0-SNAPSHOT'
+main: ch.flomod.warpSystem.WarpSystem
+api-version: '1.21'
+author: FloMod
+
+commands:
+  setwarp:
+    description: Setzt Warps
+    aliases: []
+  warp:
+    description: Warps benützen
+    aliases: []
+
+
+permissions:
+  ch.flomod.warpsystem.setwarp:
+    description: Permission zum Warps setzen
+    default: op
+  ch.flomod.warpsystem.warp:
+    description: Permission zum Warps benutzen
+    default: true
